@@ -1,0 +1,13 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* global styling */
+
+button {
+    background-color: rgb(255, 43, 124);
+}
+
+.period {
+    color: rgb(255, 43, 124);
+}
