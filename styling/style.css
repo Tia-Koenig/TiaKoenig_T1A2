@@ -1,8 +1,47 @@
+:root {
+    --main-color: #fff;
+    --colorpop-color: rgb(255, 43, 124);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    padding: 25px;
     font-family: 'Montserrat', sans-serif;
+    background-image: url("/img/starrynight.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    color: var(--main-color);
 }
 
 /* global styling */
+
+.navbar {
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+    font-size: .9em;
+}
+
+.navbar a:hover {
+    color: var(--colorpop-color);
+}
+
+.navbar a:checked {
+    color: var(--colorpop-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
 
 button {
     background-color: rgb(255, 43, 124);
@@ -10,4 +49,18 @@ button {
 
 .period {
     color: rgb(255, 43, 124);
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.home-container {
+    text-align: center;
+}
+
+.home-content img {
+    width: 200px;
+    border-radius: 50%;
 }
