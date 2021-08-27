@@ -1,5 +1,5 @@
 :root {
-    --main-color: #fff;
+    --main-color: rgba(255, 255, 255, 0.637);
     --colorpop-color: rgb(255, 43, 124);
 }
 
@@ -21,6 +21,7 @@ body {
 
 .navbar {
     text-align: center;
+    
 }
 
 .navbar li {
@@ -28,13 +29,18 @@ body {
     list-style: none;
     margin-right: 10px;
     font-size: .9em;
+    
+}
+
+.navbar a {
+    color: #fff;
 }
 
 .navbar a:hover {
     color: var(--colorpop-color);
 }
 
-.navbar a:checked {
+.navbar a:active {
     color: var(--colorpop-color);
 }
 
@@ -54,13 +60,83 @@ button {
 h2 {
     font-size: 2em;
     text-align: center;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .home-container {
     text-align: center;
 }
 
-.home-content img {
+.home-container img {
     width: 200px;
     border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.home-container h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.home-container h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.home-container h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.home-container p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.social-links li {
+    display: inline;
+    list-style: none;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.social-links a:active {
+    color: var(--colorpop-color);
+}
+
+.social-links a:hover {
+    color: var(--colorpop-color);
+}
+
+.social-links ul {
+    margin-bottom: 50px;
+}
+
+.footer-buttons {
+    text-align: center;
+}
+
+.footer-buttons a {
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+button a:hover{
+    color: #fff;
+}
+
+.footer-buttons button {
+    height: 40px;
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 10%;
+    border-style: none;
 }
