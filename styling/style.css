@@ -49,20 +49,24 @@ a {
     color: var(--main-color);
 }
 
-button {
-    background-color: rgb(255, 43, 124);
-}
-
-.period {
-    color: rgb(255, 43, 124);
-}
-
 h2 {
     font-size: 2em;
     text-align: center;
     
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* Home page styling */
+
+.period {
+    color: rgb(255, 43, 124);
+}
+
+
+
+button {
+    background-color: rgb(255, 43, 124);
 }
 
 .home-container {
