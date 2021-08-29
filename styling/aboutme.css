@@ -1,0 +1,128 @@
+.about-container {
+    text-align: center;
+}
+
+.skill-content {
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.skill-grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50px;
+    grid-auto-rows: 75px;
+}
+
+/* .skill-level {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 25px;
+    grid-column: 2 / 5;
+} */
+
+.level-title {
+    grid-column: 2 / span 1;
+    font-size: 13px;
+    margin: auto 0;
+    text-align: center;
+}
+
+.level-a {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.level-b {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.level-c {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.skill-title {
+    font-size: 14px;
+    margin: auto 0;
+    text-align: center;
+}
+
+.skill-icon {
+    font-size: 20px;
+}
+
+.html {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.html-icon {
+    color: coral;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    align-self: center;
+    text-align: center;
+}
+
+.css {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.css-icon {
+    color: rgb(93, 204, 241);
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+    align-self: center;
+    text-align: center;
+}
+
+.javascript {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+}
+
+.js-icon {
+    color: yellow;
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    align-self: center;
+    text-align: center;
+}
+
+.ruby {
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+}
+
+.ruby-icon {
+    color: red;
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
+    align-self: center;
+    text-align: center;
+}
+
+.google {
+    grid-column: 1 / span 1;
+    grid-row: 6 / span 1;
+}
+
+.google-icon {
+    color: cornflowerblue;
+    align-self: center;
+    text-align: center;
+}
+
+.google-a {
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 1;
+}
+
+.google-b {
+    grid-column: 3 / span 1 ;
+    grid-row: 6 / span 1;
+}
