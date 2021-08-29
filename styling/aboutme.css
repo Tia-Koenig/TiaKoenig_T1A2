@@ -80,7 +80,8 @@
     text-align: center;
 }
 
-.javascript {
+/* commented out for future use */
+/* .javascript {
     grid-column: 1 / span 1;
     grid-row: 4 / span 1;
 }
@@ -104,11 +105,11 @@
     grid-row: 5 / span 1;
     align-self: center;
     text-align: center;
-}
+} */
 
 .google {
     grid-column: 1 / span 1;
-    grid-row: 6 / span 1;
+    grid-row: 4 / span 1;
 }
 
 .google-icon {
@@ -119,10 +120,35 @@
 
 .google-a {
     grid-column: 2 / span 1;
-    grid-row: 6 / span 1;
+    grid-row: 4 / span 1;
 }
 
 .google-b {
     grid-column: 3 / span 1 ;
-    grid-row: 6 / span 1;
+    grid-row: 4 / span 1;
+}
+
+.tea-icon {
+    align-self: center;
+    text-align: center;
+}
+
+.tea-drinker {
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+}
+
+.tea-a {
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
+}
+
+.tea-b {
+    grid-column: 3 / span 1;
+    grid-row: 5 / span 1;
+}
+
+.tea-c {
+    grid-column: 4 / span 1;
+    grid-row: 5 / span 1;
 }

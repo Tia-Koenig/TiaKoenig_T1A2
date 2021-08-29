@@ -6,18 +6,44 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     padding: 25px;
     font-family: 'Montserrat', sans-serif;
-    background-image: url("/img/starrynight.jpg");
-    background-repeat: repeat;
+    background-color: black;
+    background-repeat: no-repeat;
     background-size: cover;
     color: var(--main-color);
+    background-image: url(../img/star-background.jpg);
+    background-size: cover;
+    
 }
 
 /* global styling */
+
+.container {
+    /* height: 100vh;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+
+
+.background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    background-image: url(../img/star-background.jpg);
+    background-size: cover;
+    z-index: -1;
+}
 
 .navbar {
     text-align: center;
@@ -57,16 +83,32 @@ h2 {
     margin-bottom: 30px;
 }
 
+button:hover {
+    background-color: transparent;
+}
+
+button a:hover{
+    color: #fff;
+}
+
+button {
+    background-color: rgb(255, 43, 124);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
 /* Home page styling */
 
 .period {
     color: rgb(255, 43, 124);
-}
-
-
-
-button {
-    background-color: rgb(255, 43, 124);
 }
 
 .home-container {
@@ -115,29 +157,17 @@ button {
     color: var(--colorpop-color);
 }
 
-.social-links ul {
-    margin-bottom: 50px;
-}
-
-.footer-buttons {
+.cta-buttons {
     text-align: center;
 }
 
-.footer-buttons a {
+.cta-buttons a {
     font-size: 12px;
     font-weight: bolder;
     color: black;
 }
 
-button:hover {
-    background-color: transparent;
-}
-
-button a:hover{
-    color: #fff;
-}
-
-.footer-buttons button {
+.cta-buttons button {
     height: 40px;
     width: 80px;
     margin-right: 10px;
