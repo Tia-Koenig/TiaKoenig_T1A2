@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="/styling/style.css">
 </head>
 <body>
-    <div class="background"></div>
+    <main class="container background home-container">
         <header> 
+            <!-- Navbar on every mobile page till i gain the knowledge to add a hamburger menu -->
             <nav class="navbar">
                 <div>
                     <ul>
@@ -24,36 +25,53 @@
                         <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </div>
+                <!-- home heading -->
             <h2>Home<span class="period">.</span></h2>
             </nav>
         </header>
-        <section class="container home-container">
+            <!-- home hero section -->
+        <section>
             <div class="home-content">
-                <img src="img/avatarimage.jpg" alt="Photo of Tia Koenig">
+                <img class="home-image" src="img/avatarimage.jpg" alt="Photo of Tia Koenig">
                 <h1>Tia Sharlee Koenig</h1>
                 <h3>Junior Web Developer</h3>
                 <h4>(in training)</h4>
                 <p>Welcome to my portfolio! Have fun exploring!</p>
             </div>
-        <!-- Navbar on every mobile page till i gain the knowledge to add a hamburger menu -->
-        
-        <div class="cta-buttons">
-            <button><a href="projects.html">Projects</a></button>
-            <button><a href="contact.html">Contact Me</a></button>
-            <button><a href="aboutme.html">About Me</a></button>
-        </div>
+            <!-- call to action buttons, to help with site navigation -->
+            <div class="cta-buttons">
+                <button><a href="projects.html">Projects</a></button>
+                <button><a href="contact.html">Contact Me</a></button>
+                <button><a href="aboutme.html">About Me</a></button>
+            </div>
         </section>
+            <!-- footer social navigation links -->
         <footer class="footer">
             <nav class="social-links">
-                <div>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/tiakoenig/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></a></i></li>
-                        <li><a href="https://github.com/Tia-Koenig" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
-                        <li><a href="https://twitter.com/Tia_in_Tech" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="mailto:tiakoenig1994@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/tiakoenig/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Tia-Koenig" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Tia_in_Tech" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:tiakoenig1994@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </footer>
+    </main>
 </body>
 </html>

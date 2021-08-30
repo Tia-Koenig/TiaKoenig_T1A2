@@ -13,27 +13,34 @@
     <link rel="stylesheet" href="/styling/style.css">
 </head>
 <body>
-    <header> 
-        <nav class="navbar">
-            <div>
+    <main class="container background">
+        <header> 
+            <nav class="navbar">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="aboutme.html">About</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
                 </ul>
-            </div>
+            </nav>
             <h2>About Me<span class="period">.</span></h2>
-        </nav>
-    </header>
-    <div class="background"></div>
-    
+        </header>
         <!-- lorem to be a few words about me -->
-    <section class="skill-section">
-        <p class="aboutme-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sed repellat, quidem numquam aperiam sint explicabo nam animi!</p>
-        <!--  -->
-        <div class="skill-content skill-grid-container">
+        <section class="skill-section">
+            <p class="aboutme-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sed repellat, quidem numquam aperiam sint explicabo nam animi!</p>
+            <!-- skills graph -->
+            <div class="skill-content skill-grid-container">
                 <h3 class="level-title level-a">Novice</h3>
                 <h3 class="level-title level-b">Proficient</h3>
                 <h3 class="level-title level-c">Expert</h3>
@@ -41,36 +48,45 @@
                 <i class="fab fa-html5 html-icon skill-icon"></i>
                 <h3 class="skill-title css">CSS</h3>
                 <i class="fab fa-css3-alt css-icon skill-icon"></i>
-                <!-- commented out for future use (when you learn javascript & ruby) -->
-                <!-- <h3 class="skill-title javascript">JavaScript</h3>
-                <i class="fab fa-js-square js-icon skill-icon"></i>
-                <h3 class="skill-title ruby">Ruby</h3>
-                <i class="fas fa-gem ruby-icon skill-icon"></i> -->
-                <!-- should i put a little joke in? -->
                 <h3 class="skill-title google">Google Search</h3>
                 <!-- should i add an ID for global styling the google icon? -->
-                <i class="fab fa-google google-icon google-a skill-icon" id="google-icon"></i>
+                <i class="fab fa-google google-icon google-a skill-icon"></i>
                 <i class="fab fa-google google-icon google-b skill-icon"></i>
                 <h3 class="skill-title tea-drinker">Tea Drinker</h3>
                 <i class="fas fa-mug-hot tea-icon tea-a skill-icon"></i>
                 <i class="fas fa-mug-hot tea-icon tea-b skill-icon"></i>
                 <i class="fas fa-mug-hot tea-icon tea-c skill-icon"></i>
-        </div>
-        <!-- <div>
-            <img src="/img/Optimized-wet-grass.jpg" alt="Picture of wet grass">
-            <h3><a href="hobbies.html">Hobbies</a></h3>
-        </div> -->
-    </section>
+            </div>
+            <div>
+                <img src="/img/Optimized-wet-grass.jpg" alt="Picture of wet grass">
+                <h3><a href="hobbies.html">Hobbies</a></h3>
+            </div>
+        </section>
+    </main>
     <footer class="footer">
         <nav class="social-links">
-            <div>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/tiakoenig/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></a></i></li>
-                    <li><a href="https://github.com/Tia-Koenig" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
-                    <li><a href="https://twitter.com/Tia_in_Tech" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a></li>
-                    <li><a href="mailto:tiakoenig1994@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></li>
-                </ul>
-            </div>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/tiakoenig/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Tia-Koenig" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Tia_in_Tech" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:tiakoenig1994@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
         </nav>
     </footer>
 </body>
