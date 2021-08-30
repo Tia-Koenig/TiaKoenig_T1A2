@@ -1,5 +1,8 @@
 .projects-container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: auto;
 }
 
@@ -16,4 +19,5 @@
 
 .projects-container p {
     margin-bottom: 50px;
+    text-align: center;
 }
