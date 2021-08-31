@@ -1,4 +1,24 @@
 /* background height */
-.contact-container {
+.background.asd {
     height: 100vh;
+}
+
+/* phone and email styles */
+.contact-information {
+    display: flex;
+    justify-content: left;
+    /* flex-direction: row; */
+    margin-bottom: 20px;
+}
+
+.contact-information i {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* contact form */
+.contact-form {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
 }

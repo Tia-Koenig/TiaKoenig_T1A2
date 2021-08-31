@@ -1,8 +1,8 @@
 /* styling for viewports iphone 5/SE and above */
 
 :root {
-    --main-color: rgba(255, 255, 255, 0.829);
-    --colorpop-color: rgb(243, 0, 122) ;
+    --main-color: #C5C7C5;
+    --colorpop-color: rgb(243, 0, 122);
 }
 
 * {
@@ -79,13 +79,16 @@ h2 {
 
 /* social link */
 .footer {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+    position: fixed;
     bottom: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    background-color: rgba(0,0,0,0.75);
     color: var(--main-color);
+    height: 50px;
 }
 
 /* Home page styling */
@@ -96,7 +99,8 @@ h2 {
 
 /* background height */
 .home-container {
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
 }
 
 /* home content flex styling */
@@ -105,6 +109,7 @@ h2 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 /* hero image*/
@@ -156,22 +161,38 @@ h2 {
 
 /* call to action button styling */
 .cta-buttons {
-    text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .cta-buttons a {
-    font-size: 12px;
-    font-weight: bolder;
-    color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-.cta-buttons button {
-    height: 40px;
-    width: 80px;
-    margin-right: 10px;
-    border-radius: 10%;
+.btn-primary {
+    height: 52px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50px;
     border-style: none;
+    padding: 0 50px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
     background-color: var(--colorpop-color);
-} 
+}
+
+.btn-alt {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+
 
