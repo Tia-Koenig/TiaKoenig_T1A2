@@ -37,12 +37,13 @@
                 <h1>Tia Sharlee Koenig</h1>
                 <h3>Junior Web Developer</h3>
                 <h4>(in training)</h4>
-                <p>Welcome to my portfolio! Have fun exploring!</p>
+                <p class="home-content-description">Welcome to my portfolio! Have fun exploring!</p>
             </div>
             <!-- call to action buttons, to help with site navigation -->
             <div class="cta-buttons">
-                <a href="projects.html"><button class="btn-primary">Projects</button></a>
-                <a href="contact.html"><button class="btn-primary btn-alt">Contact Me</button></a>
+                <!-- ideally i would have like to wrap my a tag around my button to make the entire button link to the desired page, however it is not valid semantic html. perhaps its better to use a div instead of the button tag, however, it feels more semantic to use a button tag  -->
+                <button class="btn-primary"><a href="projects.html" id="btn-primary-font">Projects</a></button>
+                <button class="btn-primary btn-alt"><a href="contact.html">Contact Me</a></button>
                 <!-- <button><a href="aboutme.html">About Me</a></button> -->
             </div>
         </section>
