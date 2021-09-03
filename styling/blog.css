@@ -1,7 +1,3 @@
-/* article {
-    width: 300px;
-} */
-
 .blog-container figure {
     display: flex;
     justify-content: center;
@@ -36,5 +32,7 @@
 .blog-container article {
     margin-bottom: 50px;
     /* background-color: rgb(138, 95, 179); */
-    /* background-color: rgba(182, 104, 255, 0.315); */
+    background-color: #181416a2;
+    /* background-color: var(--colorpop-color); */
+    
 }
