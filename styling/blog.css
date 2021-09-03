@@ -1,3 +1,4 @@
+/* figure styling */
 .blog-container figure {
     display: flex;
     justify-content: center;
@@ -8,6 +9,7 @@
     /* padding: auto; */
 }
 
+/* figcaption styling */
 .blog-container figcaption {
     font-size: 14px;
     font-weight: 500;
@@ -16,12 +18,14 @@
     width: 200px;
 }
 
+/* blog paragraph styling */
 .blog-container p {
     text-align: center;
     font-weight: 600;
     /* letter-spacing: .5px; */
 }
 
+/* blog images styling */
 .blog-container img {
     width: 100%;
     max-width: 300px;
@@ -29,6 +33,7 @@
     margin-top: 30px;
 }
 
+/* blog article container styling */
 .blog-container article {
     margin-bottom: 50px;
     /* background-color: rgb(138, 95, 179); */
