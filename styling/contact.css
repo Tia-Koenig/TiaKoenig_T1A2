@@ -11,11 +11,13 @@
     margin-bottom: 20px;
 }
 
+/* contact icon styling */
 .contact-information i {
     font-size: 20px;
     margin-right: 20px;
 }
 
+/* contact info - added margin to seperate contact info from form */
 .contact-information-margin {
     margin-bottom: 40px;
 }
@@ -43,7 +45,7 @@
     color: var(--main-color);
     padding: 5px;
 }
-
+ /* contact form textarea styling*/
 .contact-form textarea {
     background-color: rgba(224, 221, 221, 0.733);
     border: transparent;
@@ -51,6 +53,7 @@
     padding: 10px;
 }
 
+/* form submit button styling */
 input.submit-button {
     border: transparent;
     border-radius: 50px;
