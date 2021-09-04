@@ -40,7 +40,7 @@ body {
 /* navabr styling and pseudo classes */
 .navbar {
     text-align: center;
-    
+    padding-top: 24px;
 }
 
 .navbar li {
@@ -48,7 +48,6 @@ body {
     list-style: none;
     margin-right: 10px;
     font-size: 14px;
-    
 }
 
 .navbar a {
@@ -205,6 +204,13 @@ h2 {
     margin-bottom: 50px;
 }
 
+/* small screen media query */
+@media only screen and (max-width: 374px) {
+    .navbar li {
+        font-size: 12px;
+    }
+}
+
 /* tablet media query */
 @media only screen and (min-width: 768px) {
     .navbar li {
@@ -269,5 +275,4 @@ h2 {
     .home-content p {
         font-size: 35px;
     }
-
 }
