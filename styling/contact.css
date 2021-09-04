@@ -1,8 +1,3 @@
-/* background height */
-.background.asd {
-    height: 100vh;
-}
-
 /* phone, email and resume styles */
 .contact-information {
     display: flex;

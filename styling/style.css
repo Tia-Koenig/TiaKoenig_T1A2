@@ -26,6 +26,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    min-height: 100vh;
     height: 100%;
 }
 
@@ -79,9 +80,11 @@ h2 {
 
 /* social link */
 .footer {
+    max-width: 1440px;
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,12 +98,6 @@ h2 {
 
 .period {
     color: rgb(255, 43, 124);
-}
-
-/* background height */
-.home-container {
-    height: 100%;
-    min-height: 100vh;
 }
 
 /* home content flex styling */
