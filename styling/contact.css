@@ -55,7 +55,7 @@ input.submit-button {
     width: 100%;
     max-width: 200px;
     background-color: var(--colorpop-color);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 40px;
     display: flex;
     justify-content: center;
