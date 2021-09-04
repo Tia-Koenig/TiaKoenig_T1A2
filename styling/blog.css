@@ -53,33 +53,39 @@
 
 /* desktop media query */
 @media only screen and (min-width: 1248px) {
+    /* blog article styles */
     .blog-article {
         align-items: center;
-        flex-direction: row;
         max-width: 49%;
         min-height: 500px;
     }
-
+    /* blog article content styles */
+    .blog-article-content {
+        display: flex;
+    }
+    /* blog container image styles */
     .blog-container img {
         max-width: 400px;
     }
-    .blog-article-reverse {
+    /* content reverse styles */
+    .content-reverse {
         flex-direction: row-reverse;
     }
     /* refinement needed, figure should have a class to prevent class chaining to avoid hierarchy issues */
-    .blog-article.blog-article-reverse figure {
+    .blog-article .content-reverse figure {
         margin-right: 0;
         margin-left: 24px;
     }
+    /* figure styles */
     .blog-article figure {
         max-width: 40%;
         margin-right: 24px;
     }
-
+    /* figcaption styles */
     .blog-article figcaption {
         margin-bottom: 0;
     }
-
+    /* article paragraph styles */
     .blog-article p {
         text-align: left;
         width: 100%;

@@ -59,6 +59,14 @@
     margin-bottom: 50px;
     background-color: #181416a2;
     border-radius: 8px;
+    min-height: 500px;
+}
+
+/* tablet media query */
+@media only screen and (min-width: 768px) {
+    .projects-article {
+        min-height: 450px;
+    }
 }
 
 /* desktop media query */
@@ -68,7 +76,7 @@
         flex-direction: column;
         justify-content: flex-start;
         max-width: 30%;
-        min-height: 430px;
+        min-height: 500px;
     }
     .projects-container img {
         max-width: 250px;
