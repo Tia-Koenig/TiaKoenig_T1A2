@@ -1,4 +1,6 @@
-* 8098adb (HEAD -> main, origin/main) added sri's for google fonts and font awesome across all pages
+* 3b255f2 (HEAD -> main, origin/main) added live site url to README.md
+* 7b9525a updated gitlog.txt
+* 8098adb added sri's for google fonts and font awesome across all pages
 * 1c1a711 added sri's to stylesheets, updated site map
 * 52dc3b4 moved files into correct folder structure, fixed link and images not working after files were moved, added functionality to email link, added gitlog.txt
 * 918737c (origin/feature/aboutme-page, feature/aboutme-page) made final checks and revisions to all html and CSS
