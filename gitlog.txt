@@ -1,4 +1,7 @@
-* 918737c (HEAD -> main, origin/main, origin/feature/aboutme-page, feature/aboutme-page) made final checks and revisions to all html and CSS
+* 8098adb (HEAD -> main, origin/main) added sri's for google fonts and font awesome across all pages
+* 1c1a711 added sri's to stylesheets, updated site map
+* 52dc3b4 moved files into correct folder structure, fixed link and images not working after files were moved, added functionality to email link, added gitlog.txt
+* 918737c (origin/feature/aboutme-page, feature/aboutme-page) made final checks and revisions to all html and CSS
 * 5594da6 refinements to CSS and HTML
 * decf8d4 test
 * ef82989 (origin/feature/contact-page, feature/contact-page) added media querys for contact page, added resume pdf
