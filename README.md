@@ -2,11 +2,11 @@
 
 # **Website Link**
 
-[link to live site] (www.tiasawesome.com)
+[link to live site] (https://vigilant-agnesi-564de4.netlify.app/)
 
 # **Github Repo**
 
-[link to Github Repository] https://github.com/Tia-Koenig/TiaKoenig_T1A2
+[link to Github Repository] (https://github.com/Tia-Koenig/TiaKoenig_T1A2)
 
 # **Purpose**
 
