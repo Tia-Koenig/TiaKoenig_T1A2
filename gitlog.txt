@@ -1,0 +1,35 @@
+* 918737c (HEAD -> main, origin/main, origin/feature/aboutme-page, feature/aboutme-page) made final checks and revisions to all html and CSS
+* 5594da6 refinements to CSS and HTML
+* decf8d4 test
+* ef82989 (origin/feature/contact-page, feature/contact-page) added media querys for contact page, added resume pdf
+* d89ffe9 (origin/feature/projects-page, feature/projects-page) added border radius to articles on blog and projects page to soften the look
+* 1793b9a added more projects cards and changed styling for desktop view
+* 4950702 added media query for projects page, replaced photo for market place projects, added styling for projects cards
+* ea0babe (feature/blog-page) added navbar media query for font size on smaller screens
+* 2f8b242 (origin/feature/blog-page) added media querys for blog page, refined styling for background class
+*   a95c9a0 Merge branch 'main' of https://github.com/Tia-Koenig/TiaKoenig_T1A2 into feature/blog-page
+|\  
+| * ace3d20 test
+| * 17d00f2 added media querys and commenting for style.css & index.html
+* | 6214222 added comment to blog.css
+* | b137069 added styling to article backgrounds
+* | 3196e00 added images to blog page, styled blog page
+|/  
+* 43b544f added more comments to stylesheet and markup
+* 2aaab8e styled contact form and added resume link + icon
+* 7b1e795 refined styling for footer, page specific backgrounds, added classes for btn-primary and btn-alt
+* c13396d test commit
+* 94a3f81 added commenting to index.html and style.css, revised social links location and styling, made home content flex and made projects.html content flex
+* f748278 added background and container class for main tags on all pages
+* 96f5b51 added background to all pages, set opaic background on social links to make more visible
+* 77b80eb added markup and css for  skills graph to aboutme.html
+* 5599e75 added image for aboutme, removed styling for projects page as it was moved to project page branch
+* b9d5f5a Upstream test
+* 5d5132a added styling to projects page v1
+* 548f7ee deleted unused jpegs, added photos to projects.html
+* 59089e2 v1 index.html styling completed
+* 30ba0ef navbar styling v1
+*   007fdf9 (origin/master) Merge branch 'main' of https://github.com/Tia-Koenig/TiaKoenig_T1A2
+|\  
+| * 9b1b68b Initial commit
+* 896c6f3 created all html and css pages, did markup for index.html, projects.html and blog.html, added nav bar to all html pages, linked all pages to style.css and their individual style sheets
